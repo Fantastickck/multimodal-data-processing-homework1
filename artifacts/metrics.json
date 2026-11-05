@@ -1,0 +1,62 @@
+{
+  "seed": 42,
+  "steps": 600,
+  "batch_size": 32,
+  "optimizer": "AdamW",
+  "learning_rate": 0.0003,
+  "weight_decay": 0.01,
+  "config": {
+    "vocab_size": 19,
+    "context_size": 64,
+    "d_model": 128,
+    "n_heads": 4,
+    "n_layers": 2,
+    "d_ff": 512,
+    "dropout": 0.1
+  },
+  "parameters": 400640,
+  "corpus_characters": 9600,
+  "train_characters": 8640,
+  "validation_characters": 960,
+  "corpus_sha256": "3bf9196a3eb5036b4daec5f8a6d5794aeee8ee967407bc2f85a5f3d017aef6e5",
+  "first_batch_loss": 3.153437852859497,
+  "last_batch_loss": 0.030262337997555733,
+  "evaluation": [
+    {
+      "step": 0,
+      "train": 3.152711510658264,
+      "validation": 3.1555610299110413
+    },
+    {
+      "step": 100,
+      "train": 0.32902418822050095,
+      "validation": 0.32879357039928436
+    },
+    {
+      "step": 200,
+      "train": 0.04796013422310352,
+      "validation": 0.048696981742978096
+    },
+    {
+      "step": 300,
+      "train": 0.03212079592049122,
+      "validation": 0.03295522648841143
+    },
+    {
+      "step": 400,
+      "train": 0.028519909363240004,
+      "validation": 0.030022775288671255
+    },
+    {
+      "step": 500,
+      "train": 0.0219152825884521,
+      "validation": 0.02235899306833744
+    },
+    {
+      "step": 600,
+      "train": 0.026617652736604214,
+      "validation": 0.026691028382629156
+    }
+  ],
+  "elapsed_seconds": 44.877379359008046
+}

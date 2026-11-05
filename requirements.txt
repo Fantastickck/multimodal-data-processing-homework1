@@ -1,0 +1,6 @@
+# Direct dependencies of the recorded CPU run.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.9.0+cpu
+matplotlib==3.11.2
+nbclient==0.11.0
+ipykernel==7.4.0
