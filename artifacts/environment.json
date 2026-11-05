@@ -1,11 +1,11 @@
 {
-  "python": "3.12.3",
-  "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.39",
-  "torch": "2.9.0+cpu",
-  "matplotlib": "3.11.2",
-  "device": "cpu",
-  "cuda_runtime": null,
-  "gpu": null,
+  "python": "3.13.16",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "torch": "2.11.0+cu130",
+  "matplotlib": "3.10.0",
+  "device": "cuda",
+  "cuda_runtime": "13.0",
+  "gpu": "Tesla T4",
   "cpu_threads": 2,
   "deterministic_algorithms": true,
   "cublas_workspace_config": ":4096:8"
